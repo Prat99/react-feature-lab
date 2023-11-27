@@ -1,0 +1,17 @@
+.boxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.box {
+  height: 70px;
+  width: 50px;
+  border: 1px solid black;
+  flex: 0 0 32%;
+  margin-bottom: 5px;
+}
+
+.selected-box {
+  background-color: red;
+}
