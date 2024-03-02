@@ -1,0 +1,8 @@
+.rootNode {
+  cursor: pointer;
+}
+
+.fileName {
+  cursor: pointer;
+  display: flex;
+}
