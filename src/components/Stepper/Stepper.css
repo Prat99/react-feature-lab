@@ -1,0 +1,65 @@
+.stepperContainer {
+
+    --step-default: #c2c6c2;
+    --step-active: #1c9ee3;
+    --step-completed: #56e756;
+
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    align-items: stretch;
+
+    .stepperHeading{
+        display:flex;
+        justify-content: space-around;
+    }
+
+    .stepperWrapper{
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .stepperNxtBtn{
+        display:flex;
+        justify-content: space-around;
+    }
+    .stepperNxtBtn > button {
+        padding: 8px 16px;
+        margin: 16px;
+        border-radius: 5px;
+    }
+    .step {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50%;
+    background: var(--step-default);
+    z-index:2;
+    }
+    .stepConnector {
+    display: flex;
+    width: 100%;
+    height: 4px;
+    background: var(--step-default);
+    position: relative;
+    bottom: 25px;
+    }
+    .stepCompleted {
+        background-color: var(--step-completed);
+    }
+    .stepActive {
+        background-color: var(--step-active);
+    }
+
+    .stepperComponent{
+        display: flex;
+        justify-content: space-around;
+    }
+
+}

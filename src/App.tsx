@@ -6,12 +6,16 @@ import fileStructre from "./components/FileExplorer/data/FileStructure";
 import { employeeList } from "./components/EmployeeManagement/EmployeeData";
 import EmployeeList from "./components/EmployeeManagement/EmployeeList";
 import EmployeeManagement from "./components/EmployeeManagement/EmployeeManagement";
+import Stepper from "./components/Stepper/Stepper";
+import StopWatch from "./components/StopWatch/StopWatch";
 
 function App() {
   return (
     <div className="AppWrapper">
       {/* <FileExplorer fileStructure={fileStructre} /> */}
-      <EmployeeManagement />
+      {/* <EmployeeManagement /> */}
+      {/* <Stepper /> */}
+      <StopWatch />
     </div>
     // <div className="App" style={{ textAlign: "center" }}>
     //   {/* <GridLights /> */}
