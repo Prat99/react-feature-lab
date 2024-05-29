@@ -8,6 +8,8 @@ import EmployeeList from "./components/EmployeeManagement/EmployeeList";
 import EmployeeManagement from "./components/EmployeeManagement/EmployeeManagement";
 import Stepper from "./components/Stepper/Stepper";
 import StopWatch from "./components/StopWatch/StopWatch";
+import ProgressbarContainer from "./components/Progressbar/Progressbar";
+import ControlledProgressbarContainer from "./components/Progressbar/ControlledProgressbar";
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
       {/* <FileExplorer fileStructure={fileStructre} /> */}
       {/* <EmployeeManagement /> */}
       {/* <Stepper /> */}
-      <StopWatch />
+      {/* <StopWatch /> */}
+      {/* <ProgressbarContainer /> */}
+      <ControlledProgressbarContainer />
     </div>
     // <div className="App" style={{ textAlign: "center" }}>
     //   {/* <GridLights /> */}

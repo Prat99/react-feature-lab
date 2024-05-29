@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .progress {
+    height: 10px;
+    display: flex;
+    width:100%;
+    background-color: #cacaca;
+    margin: 16px 0px;
+  }
+  
+  
+  .progress-bar {
+    background-color: rgb(19, 67, 51);
+    display: flex;
+    height: auto;
+    overflow: auto;
+  }
+
+  .buttons {
+    display: flex;
+    column-gap: 10px;
+  }
